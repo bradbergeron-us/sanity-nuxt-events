@@ -9,9 +9,9 @@ export default {
       title: 'Name of venue'
     },
     {
-      name: 'city',
+      name: 'address',
       type: 'string',
-      title: 'City'
+      title: 'Address'
     },
     {
       name: 'postCode',

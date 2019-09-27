@@ -35,11 +35,11 @@ export default {
       title: 'Session type',
       options: {
         list: [
-          {value: 'keynote', title: 'Keynote'},
-          {value: 'talk', title: 'Talk'},
-          {value: 'break', title: 'Break'},
-          {value: 'firesideChat', title: 'Fireside Chat'},
-          {value: 'panel', title: 'Panel'}
+          {value: 'ceremony', title: 'Ceremony'},
+          {value: 'cocktail hour', title: 'Cocktail Hour'},
+          {value: 'reception', title: 'Reception'},
+          {value: 'brunch', title: 'Brunch'},
+          {value: 'rehearsal dinner', title: 'Rehearsal Dinner'}
         ]
       }
     },
