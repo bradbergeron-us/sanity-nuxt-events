@@ -4,10 +4,12 @@ module.exports = {
     node: true
   },
   extends: [
-    "plugin:vue/recommended",
-    "eslint:recommended",
+    "prettier",
     "prettier/vue",
-    "plugin:prettier/recommended"
+    "@nuxtjs",
+    "plugin:nuxt/recommended",
+    "plugin:vue/essential",
+    "eslint:recommended"
   ],
   rules: {
     "vue/component-name-in-template-casing": ["error", "PascalCase"],
