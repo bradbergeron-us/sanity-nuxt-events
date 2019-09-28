@@ -1,12 +1,22 @@
 <template>
   <footer class="footer">
     <nav>
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/sessions">Sessions</nuxt-link>
-      <nuxt-link to="/speakers">Speakers</nuxt-link>
-      <nuxt-link to="/code-of-conduct">Code of conduct</nuxt-link>
-      <a v-if="eventInformation.venue" :href="eventInformation.ticket"
-        >Tickets
+      <nuxt-link to="/">
+        Home
+      </nuxt-link>
+      <nuxt-link to="/sessions">
+        Sessions
+      </nuxt-link>
+      <nuxt-link to="/speakers">
+        Speakers
+      </nuxt-link>
+      <nuxt-link to="/code-of-conduct">
+        Code of conduct
+      </nuxt-link>
+      <a
+        v-if="eventInformation.venue"
+        :href="eventInformation.ticket"
+      >Tickets
       </a>
     </nav>
     <address v-if="eventInformation.venue" class="venue">
