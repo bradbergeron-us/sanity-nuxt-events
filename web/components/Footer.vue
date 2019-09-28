@@ -12,14 +12,10 @@
     <address v-if="eventInformation.venue" class="venue">
       <div>{{ eventInformation.venue.name }}</div>
       <div>
-        {{ eventInformation.venue.postCode }} {{ eventInformation.venue.city }}
+        {{ eventInformation.venue.address }} {{ eventInformation.venue.postCode }}
       </div>
       <div>{{ eventInformation.venue.country }}</div>
     </address>
-    <div class="power">
-      Powered by <a href="https://nuxtjs.org">Nuxt.js</a> and
-      <a href="https://www.sanity.io">Sanity.io</a> {{ year }}
-    </div>
   </footer>
 </template>
 
